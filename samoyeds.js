@@ -1,4 +1,4 @@
-const getImage = async () => {
+(async () => {
     await fetch('https://www.reddit.com/r/samoyeds.json?sort=top&t=day')
       .then(response => response.json())
       //.reddit_video.fallback_url
@@ -19,6 +19,5 @@ const getImage = async () => {
         } else {
           console.log('no file to display 🙉');
         }
-      });
- };
-getImage();
+    });
+})();
