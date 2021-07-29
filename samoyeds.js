@@ -17,7 +17,7 @@ const getImage = async () => {
         } else if (res.data.children[25].data.url) {
           console.log(res.data.children[number].data.url);
         } else {
-          console.log('no file to dispay 🙉');
+          console.log('no file to display 🙉');
         }
       });
  };
