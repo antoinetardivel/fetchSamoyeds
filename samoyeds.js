@@ -1,3 +1,5 @@
+const fetch = require("node-fetch");
+
 (async () => {
     await fetch('https://www.reddit.com/r/samoyeds.json?sort=top&t=day')
       .then(response => response.json())

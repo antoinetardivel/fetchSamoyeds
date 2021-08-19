@@ -1,0 +1,24 @@
+{
+  "name": "fetchSamoyeds",
+  "version": "1.0.0",
+  "description": "![alt text](https://raw.githubusercontent.com/antoinetardivel/fetchSamoyeds/main/Samoyed.jpg)",
+  "main": "samoyeds.js",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SungJunEun/fetchSamoyeds.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SungJunEun/fetchSamoyeds/issues"
+  },
+  "homepage": "https://github.com/SungJunEun/fetchSamoyeds#readme"
+}
