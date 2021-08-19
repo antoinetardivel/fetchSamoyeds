@@ -1,7 +1,7 @@
 const fetch = require("node-fetch");
 
 (async () => {
-    await fetch('https://www.reddit.com/r/samoyeds.json?sort=top&t=day')
+    await fetch('https://www.reddit.com/r/samoyeds/top/.json')
       .then(response => response.json())
       //.reddit_video.fallback_url
       .then(res => {
@@ -9,7 +9,7 @@ const fetch = require("node-fetch");
         const hour = d.getHours() + 1;
         console.log(hour);
         const number = hour;
-        console.log(res.data.children);
+       // console.log(res.data.children);
         if (res.data.children[number].data.media) {
           console.log(res.data.children[number].data.media.reddit_video.fallback_url);
         } else if (res.data.children[number].data.url) {
