@@ -9,7 +9,7 @@ const fetch = require("node-fetch");
         const hour = d.getHours() + 1;
         console.log(hour);
         const number = hour;
-       // console.log(res.data.children);
+        console.log(res.data.children);
         if (res.data.children[number].data.media) {
           console.log(res.data.children[number].data.media.reddit_video.fallback_url);
         } else if (res.data.children[number].data.url) {
