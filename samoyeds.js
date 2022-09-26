@@ -1,5 +1,7 @@
+const fetch = require("node-fetch");
+
 (async () => {
-    await fetch('https://www.reddit.com/r/samoyeds.json?sort=top&t=day')
+    await fetch('https://www.reddit.com/r/samoyeds/top/.json')
       .then(response => response.json())
       //.reddit_video.fallback_url
       .then(res => {
